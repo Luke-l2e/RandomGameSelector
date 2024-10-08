@@ -51,9 +51,7 @@ android {
 
 dependencies {
     // https://mvnrepository.com/artifact/androidx.compose.material3/material3
-    implementation("androidx.compose.material3:material3:1.3.0")
-//    implementation("androidx.compose.material3:material3-window-size-class:1.3.0")
-//    implementation("androidx.compose.material3:material3-adaptive-navigation-suite:1.4.0-alpha01")
+    implementation(libs.material3)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

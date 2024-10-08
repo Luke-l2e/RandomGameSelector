@@ -217,11 +217,13 @@ class MainActivity : ComponentActivity() {
         ) {
             Text(
                 text = randomGame,
-                style = MaterialTheme.typography.displayMedium, textAlign = TextAlign.Center,
-                color = MaterialTheme.colorScheme.onPrimary, modifier = Modifier
+                style = MaterialTheme.typography.displayMedium,
+                textAlign = TextAlign.Center,
+                color = MaterialTheme.colorScheme.onPrimary,
+                modifier = Modifier
                     .fillMaxWidth(0.93f)
                     .clip(shape = RoundedCornerShape(30))
-                    .background(MaterialTheme.colorScheme.primary)
+                    .background(if (isRolling) MaterialTheme.colorScheme.inversePrimary else MaterialTheme.colorScheme.primary)
             )
         }
     }
