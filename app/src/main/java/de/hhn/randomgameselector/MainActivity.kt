@@ -46,7 +46,7 @@ import kotlinx.coroutines.delay
 import kotlin.random.Random
 
 class MainActivity : ComponentActivity() {
-    private val games = listOf("Quickmatch", "Stormleague", "Battlegrounds", "ARAM")
+    private val games = listOf("Quickmatch", "Stormleague", "Battlegrounds", "ARAM", "Chess")
 
     @OptIn(ExperimentalMaterial3Api::class)
     override fun onCreate(savedInstanceState: Bundle?) {
