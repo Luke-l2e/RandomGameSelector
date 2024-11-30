@@ -13,3 +13,4 @@
   * Big widget [?x?]\
     Dropdown to choose the list + Button + Notificiation\
     Dropdown + Button + Scrolling result
+* Internationalization (Multiple languages)
